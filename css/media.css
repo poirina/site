@@ -1,0 +1,147 @@
+@media (max-width:1024px){
+    header nav .nav-topic{
+        margin-left: -352px;
+    }
+    header .head{
+        flex-direction: column;
+    }
+    header .head-img, header .head-topic{
+        margin-left: 182px;
+    }
+    header section .episod-topic{
+        width: 700px;
+    }
+    header section .b-ep{
+        margin: 124px 54px 76px 4px;
+        width: 373px;
+    }
+    header section .slaid-bg {
+        width: 800px;
+        height: 980px;
+        flex-direction: column;
+        margin-left: 96px;
+    }
+    header section .slaid-title{
+        margin: 510px 10px 10px 41px;
+    }
+    header section .slaid-topic, header section .frame,header section .topic-slaid,header section .subtitle,header section .b-sl{
+        position: relative;
+        margin: 0;
+    }
+    header section .img, header section .img-1{
+        position: relative;
+        margin-left: 24%;
+    }
+    header section .slaid-topic{
+        margin: 10px 10px 10px 41px;
+    }
+    header section .slaid-topic-1{
+        margin: 10px 10px 10px 38px;
+    }
+    header section .frame{
+        margin: 5px 40px 20px 41px;
+    }
+    header section .topic-slaid{
+        margin: 7px 40px 10px 39px;
+    }
+    header section .subtitle{
+        margin: 7px 40px 10px 39px;
+        width: 644px;
+    }
+    header section .b-sl{
+        margin: 7px 40px 10px 39px;
+    }
+    main .main-block{
+        flex-direction: column;
+        margin-top: -309px;
+        margin-left: 60px;
+    }
+    main section .img-name{
+        margin: 10px 30px 10px 60px;
+    }
+    main  section .email-bg{
+        width: 585px;
+        height: 682px;
+        padding-left: 42px;
+        flex-direction: column;
+        margin-left: 162px;
+    }
+    main section .star-block-1, main section .star-block-2,main section .star-block,main section .star-block-21{
+        margin: 9px 0px 10px 52px
+    }
+    footer section div .logo-imagw{
+        margin: 42px 78px 27px 71px;
+    }
+    footer section .f-text{
+        margin: 42px 34px 0 35px;
+    }
+    footer section .music-1 {
+        margin-top: 42px;
+    }
+    header .hamburger-menu{
+        opacity: 0;
+    }
+}
+@media (max-width: 768px){
+    header nav .nav-topic{
+        opacity: 0;
+    }
+    header  .head-img{
+        margin-left: 107px;
+    }
+    header section .episod-topic {
+        width: 400px;
+        margin: 93px 0 0 143px
+    }
+    header section .b-ep{
+        margin: 124px 0 0 55px;
+        width: 243px;
+    }
+    header section .slaid-bg {
+        width: 717px;
+        height: 980px;
+        flex-direction: column;
+        margin-left: 74px;
+    }
+    header section .img, header section .img-1{
+        position: relative;
+        margin-left: 22%;
+    }
+    header section .slaid-topic{
+        margin: 10px 10px 10px 41px;
+    }
+    header section .slaid-topic-1{
+        margin: 10px 10px 10px 38px;
+    }
+    header section .frame{
+        margin: 5px 40px 20px 41px;
+    }
+    header section .topic-slaid{
+        margin: 7px 40px 10px 39px;
+        width: 593px;
+    }
+    header section .subtitle{
+        margin: 7px 40px 10px 39px;
+        width: 552px;
+    }
+    header section .b-sl{
+        margin: 7px 40px 10px 39px;
+    }
+    main .main-block{
+        margin-left: 57px;
+    }
+    main  section .email-bg{
+        margin-left: 109px;
+    }
+    main section .star-block-1, main section .star-block-2,main section .star-block,main section .star-block-21{
+        width: 353px;
+        height: 400px;
+        margin: 9px 0 10px 31px;
+    }
+    footer section div .logo-imagw{
+        margin: 42px 63px 27px 40px;
+    }
+    footer section .f-text{
+        margin: 42px 23px 0 27px;
+    }
+}
