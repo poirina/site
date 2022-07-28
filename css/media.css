@@ -1,25 +1,35 @@
 @media (max-width:1024px){
+    header nav .logo{
+        margin: 43px 0 43px 51px;
+    }
     header nav .nav-topic{
-        margin-left: -352px;
+        margin-left: 247px;
     }
     header .head{
         flex-direction: column;
     }
     header .head-img, header .head-topic{
-        margin-left: 182px;
+        margin-left: 125px;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    header section .head-topic1 {
+        margin-top: 95px;
     }
     header section .episod-topic{
-        width: 700px;
+        width: 455px;
+        margin: 93px 0 66px 70px;
     }
     header section .b-ep{
-        margin: 124px 54px 76px 4px;
-        width: 373px;
+        margin: 109px 0 76px 0;
+        width: 250px;
     }
     header section .slaid-bg {
-        width: 800px;
+        width: 750px;
         height: 980px;
+        margin-left: 36px;
+        margin-right: 0;
         flex-direction: column;
-        margin-left: 96px;
     }
     header section .slaid-title{
         margin: 510px 10px 10px 41px;
@@ -43,10 +53,11 @@
     }
     header section .topic-slaid{
         margin: 7px 40px 10px 39px;
+        width: 628px;
     }
     header section .subtitle{
         margin: 7px 40px 10px 39px;
-        width: 644px;
+        width: 625px;
     }
     header section .b-sl{
         margin: 7px 40px 10px 39px;
@@ -54,7 +65,6 @@
     main .main-block{
         flex-direction: column;
         margin-top: -309px;
-        margin-left: 60px;
     }
     main section .img-name{
         margin: 10px 30px 10px 60px;
@@ -64,21 +74,29 @@
         height: 682px;
         padding-left: 42px;
         flex-direction: column;
-        margin-left: 162px;
+        margin-left: 89px;
+        margin-top: 131px;
+    }
+    main .stars{
+        justify-content: left;
+        margin-left: -23px;
     }
     main section .star-block-1, main section .star-block-2,main section .star-block,main section .star-block-21{
-        margin: 9px 0px 10px 52px
+        margin: 9px 0px 10px 52px;
     }
     footer section div .logo-imagw{
         margin: 42px 78px 27px 71px;
     }
     footer section .f-text{
-        margin: 42px 34px 0 35px;
+        margin: 42px 34px 70px 35px;
     }
     footer section .music-1 {
-        margin-top: 42px;
+        margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
-    header .hamburger-menu{
+    .hanburger-menu{
         opacity: 0;
     }
 }
@@ -86,26 +104,29 @@
     header nav .nav-topic{
         opacity: 0;
     }
+    .hanburger-menu{
+        opacity: 1;
+    }
     header  .head-img{
-        margin-left: 107px;
+        margin-left: 1px;
     }
     header section .episod-topic {
         width: 400px;
-        margin: 93px 0 0 143px
+        margin: 93px 0 0 17px
     }
     header section .b-ep{
-        margin: 124px 0 0 55px;
-        width: 243px;
+        margin-top: 146px;
+        width: 195px;
     }
     header section .slaid-bg {
-        width: 717px;
-        height: 980px;
+        width: 572px;
+        height: 1070px;
         flex-direction: column;
-        margin-left: 74px;
+        margin-left: 43px;
     }
     header section .img, header section .img-1{
         position: relative;
-        margin-left: 22%;
+        margin-left: 16%;
     }
     header section .slaid-topic{
         margin: 10px 10px 10px 41px;
@@ -118,20 +139,34 @@
     }
     header section .topic-slaid{
         margin: 7px 40px 10px 39px;
-        width: 593px;
+        width: 440px;
     }
     header section .subtitle{
         margin: 7px 40px 10px 39px;
-        width: 552px;
+        width: 444px;
     }
     header section .b-sl{
         margin: 7px 40px 10px 39px;
+        width: 170px;
+    }
+    main .arrow .copy{
+        width: 430px;
+    }
+    main section .img-name{
+        margin-top: 30px;
+        margin-left: -55px;
     }
     main .main-block{
         margin-left: 57px;
     }
     main  section .email-bg{
-        margin-left: 109px;
+        margin-left: 9px;
+    }
+    main .stars{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     main section .star-block-1, main section .star-block-2,main section .star-block,main section .star-block-21{
         width: 353px;
@@ -142,6 +177,21 @@
         margin: 42px 63px 27px 40px;
     }
     footer section .f-text{
+        display: contents;
         margin: 42px 23px 0 27px;
+    }
+    footer section .f-logo{
+        margin-left: 93px;
+    }
+    footer .foot{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    footer section .music-1{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
     }
 }

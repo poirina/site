@@ -13,7 +13,7 @@ header.episod{
 header nav .logo{
     width: 160px;
     height: 33px;
-    margin: 43px 797px 43px 51px;
+    margin: 43px 79px 43px 51px;
 }
 header nav .nav-topic{
     display: flex;
@@ -480,11 +480,12 @@ main section div .star-text-2{
 }*/
 main .stars{
     display: grid;
-    grid-template-columns: 420px 420px;
+    grid-template-columns: 400px 400px;
     grid-template-rows: 320px 320px 320px;
     column-gap: 16px;
     row-gap: 16px;
     justify-content: center;
+    margin-left: -135px;
 }
 main section .star-block-1, main section .star-block-2,main section .star-block,main section .star-block-21{
     border-radius: 32px;
@@ -545,6 +546,7 @@ footer section div .social img{
 footer section .f-text{
     margin-top: 184px;
     margin-right: 120px;
+    margin-bottom: 70px;
 }
 footer section .f-text a{
     text-decoration: none;
